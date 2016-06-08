@@ -1,4 +1,4 @@
-- [ITJumpstart on containers](https://itjumpstart.wordpress.com/containers)
+Brought to you by [ITJumpstart](https://itjumpstart.wordpress.com/containers) and [ITMarketplace.net](http://itmarketplace.net)
 
 **Local Kubernetes Cluster**
 
