@@ -22,3 +22,6 @@ Brought to you by [ITJumpstart](https://itjumpstart.wordpress.com/containers) an
 
 - Get Started with a local Kubernetes environment - via [Giant Swarm](https://blog.giantswarm.io/getting-started-with-a-local-kubernetes-environment/)
 - Crate cluster using Weave Net multicast - via [Giant Swarm](https://blog.giantswarm.io/deploy-elastic-high-availability-sql-cluster-crate-weave)
+- Best practices for configuration - http://kubernetes.io/docs/user-guide/config-best-practices/
+- [SaltStack](http://thenewstack.io/saltstacks-big-role-in-google-kubernetes-and-why-immutable-infrastructure-makes-the-cloud-a-giant-computer/) on Kubernetes configuration
+- Everything [you wanted to know](https://cloudplatform.googleblog.com/2015/01/everything-you-wanted-to-know-about-Kubernetes-but-were-afraid-to-ask.html) about Kubernetes but were afraid to ask
