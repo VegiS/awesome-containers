@@ -13,16 +13,23 @@
 - b) endpoints controller - populates the Endpoints object (i.e., join Services & Pods) 
 - c) service account & token Controllers -  create default accounts and API access tokens for new namespaces
 - d) [replication controller](http://kubernetes.io/docs/user-guide/replication-controller/) - [replicate](https://coreos.com/kubernetes/docs/latest/replication-controller.html) [pods](https://coreos.com/kubernetes/docs/latest/pods.html)
-
 - kubectl (CLI for admin)
 
 *Worker Node*
 
-- kubelet (agent)
+- kubelet - all-around agent
 - kube-proxy - route networking and services[https://coreos.com/kubernetes/docs/latest/services.html] between control plane and worker nodes
 - container runtime (Docker, rkt, etc)
 
-**Machine**
+*Add-ons*
+
+- DNS
+- user interface - read-only view of cluster state
+- container resource monitoring - [Heapster](https://github.com/kubernetes/heapster)
+- cluster-level logging - Elasticsearch and Kibana
+
+
+**What is a Machine**
 
 - has an IP address
 - optional port
