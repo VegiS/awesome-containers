@@ -1,5 +1,5 @@
 - kubernetes 101 - http://omerio.com/2015/12/18/learn-the-kubernetes-key-concepts-in-10-minutes/
-- Download Kubernetes: Up and Running Preview [here](https://itjumpstart.files.wordpress.com/2015/03/kubernetes_up_and_running_preview.pdf)
+- Download Kubernetes books [here](https://itjumpstart.files.wordpress.com/2015/03/kubernetes_up_and_running_preview.pdf) and [here](https://itjumpstart.files.wordpress.com/2015/03/kubernetes.pdf)
 
 **[Kubernetes Architecture](http://kubernetes.io/docs/admin/cluster-components)**
 
