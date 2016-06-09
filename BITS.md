@@ -1,0 +1,1 @@
+- when a container crashes, [kubelet](http://kubernetes.io/docs/user-guide/volumes) will restart it
