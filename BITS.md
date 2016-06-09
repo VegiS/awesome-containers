@@ -6,3 +6,10 @@
 - replication controller: pod template + label
 - service - load balance two or more pod replicas
 
+**NSQ on Kubernetes**
+
+- https://github.com/ibmendoza/nsq-kubernetes
+- http://www.hward.com/nsqd-service-discovery-with-dns-records
+- https://gist.github.com/bketelsen/a2d353d0318736c9fa23
+
+
