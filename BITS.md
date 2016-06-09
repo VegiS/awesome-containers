@@ -1,13 +1,19 @@
 - kubernetes 101 - http://omerio.com/2015/12/18/learn-the-kubernetes-key-concepts-in-10-minutes/
 
-**Kubernetes Architecture**
+**[Kubernetes Architecture](http://kubernetes.io/docs/admin/cluster-components)**
 
 *Control plane*
 
 - API server - for [services](https://github.com/kubernetes/kubernetes/wiki/Services-FAQ)
 - etcd - distributed key-value store for cluster state (metadata)
-- scheduler - schedule pod to worker node
-- [replication controller](http://kubernetes.io/docs/user-guide/replication-controller/) - [replicate](https://coreos.com/kubernetes/docs/latest/replication-controller.html) [pods](https://coreos.com/kubernetes/docs/latest/pods.html)
+- scheduler - watches newly created pods that have no node assigned, and selects a node for them to run on
+
+- controller-manager
+- a) node controller - health check nodes
+- b) endpoints controller - populates the Endpoints object (i.e., join Services & Pods) 
+- c) service account & token Controllers -  create default accounts and API access tokens for new namespaces
+- d) [replication controller](http://kubernetes.io/docs/user-guide/replication-controller/) - [replicate](https://coreos.com/kubernetes/docs/latest/replication-controller.html) [pods](https://coreos.com/kubernetes/docs/latest/pods.html)
+
 - kubectl (CLI for admin)
 
 *Worker Node*
