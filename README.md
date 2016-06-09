@@ -18,6 +18,14 @@ Brought to you by [ITJumpstart](https://itjumpstart.wordpress.com/containers) an
 - localkube – https://github.com/redspread/localkube
 - minikube - https://github.com/kubernetes/minikube
 
+**Related Kubernetes Projects**
+
+- https://github.com/kubernetes/helm
+- https://github.com/kubernetes/kube-deploy
+- https://github.com/kubernetes/kube-state-metrics
+- https://github.com/kubernetes/kube-ui
+
+
 **Curated List**
 
 - Get Started with a local Kubernetes environment - via [Giant Swarm](https://blog.giantswarm.io/getting-started-with-a-local-kubernetes-environment/)
