@@ -1,5 +1,16 @@
 Brought to you by [ITJumpstart](https://itjumpstart.wordpress.com/containers) and [ITMarketplace.net](http://itmarketplace.net)
 
+ **If you don't know where you are going then it doesn't matter where you go.** -Lewis Carroll
+ 
+ <img src="https://itjumpstart.files.wordpress.com/2016/06/roads.jpg">
+ 
+ **Roads to Container Orchestration**
+ 
+ - Google Way - Kubernetes
+ - Mesos Way - [DC/OS](https://mesosphere.com)
+ - Hashicorp Way - [Nomad](https://www.nomadproject.io)
+ - Docker Way - [Swarm](https://github.com/docker/swarm)
+
 **Local Kubernetes Cluster**
 
 - [monokube](https://github.com/polvi/monokube) – all [processes](https://corekube.com/2016/03/11/kubecon-london-2016-day-2) run in goroutines
