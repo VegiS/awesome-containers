@@ -4,16 +4,16 @@
 
 *Control plane*
 
-- API server - for services
+- API server - for [services](https://github.com/kubernetes/kubernetes/wiki/Services-FAQ)
 - etcd - distributed key-value store for cluster state (metadata)
 - scheduler - schedule pod to worker node
-- replication controller - replicate pods
+- [replication controller](http://kubernetes.io/docs/user-guide/replication-controller/) - [replicate](https://coreos.com/kubernetes/docs/latest/replication-controller.html) [pods](https://coreos.com/kubernetes/docs/latest/pods.html)
 - kubectl (CLI for admin)
 
 *Worker Node*
 
 - kubelet (agent)
-- kube-proxy - route [networking and services](https://github.com/kubernetes/kubernetes/wiki/Services-FAQ) between control plane and worker nodes
+- kube-proxy - route networking and services[https://coreos.com/kubernetes/docs/latest/services.html] between control plane and worker nodes
 - container runtime (Docker, rkt, etc)
 
 **Machine**
