@@ -2,7 +2,7 @@
 
 **Kubernetes Architecture**
 
-1. control plane 
+*Control plane*
 
 - API server - for services
 - etcd - distributed key-value store for cluster state (metadata)
@@ -10,10 +10,10 @@
 - replication controller - replicate pods
 - kubectl (CLI for admin)
 
-2. worker node (physical/VM) 
+*Worker Node*
 
 - kubelet (agent)
-- kube-proxy - networking between control plane and worker nodes
+- kube-proxy - route [networking and services](https://github.com/kubernetes/kubernetes/wiki/Services-FAQ) between control plane and worker nodes
 - container runtime (Docker, rkt, etc)
 
 **Machine**
